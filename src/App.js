@@ -1,10 +1,9 @@
-import './App.css';
-import Parent from './Parent';
+import "./App.css";
+import Parent from "./Parent";
+import Wrapper from "./Wrapper";
 
 function App() {
-  return (
-    <Parent/>
-  );
+  return <Wrapper></Wrapper>;
 }
 
 export default App;
