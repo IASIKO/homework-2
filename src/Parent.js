@@ -17,9 +17,10 @@ const userArray = [
 ];
 
 const isUserLoggedIn = true;
+// const isUserLoggedIn = false;
 
-function Pharent() {
+function Parent() {
   return <Child array={userArray} userLoggedIn={isUserLoggedIn} />;
 }
 
-export default Pharent;
+export default Parent;

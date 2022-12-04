@@ -1,9 +1,9 @@
 import './App.css';
-import Pharent from './Pharent';
+import Parent from './Parent';
 
 function App() {
   return (
-    <Pharent/>
+    <Parent/>
   );
 }
 
