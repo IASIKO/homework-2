@@ -8,7 +8,6 @@ const userArray = [
     age: 27,
     id: 1,
   },
-  {},
   {
     name: "name2",
     lastname: "surname2",
@@ -17,21 +16,10 @@ const userArray = [
   },
 ];
 
-
+const isUserLoggedIn = true;
 
 function Pharent() {
-  return (
-    <ul>
-      {userArray.map((user) => (
-        <Child
-          name={user.name}
-          lastname={user.lastname}
-          age={user.age}
-          id={user.id}
-        />
-      ))}
-    </ul>
-  );
+  return <Child array={userArray} userLoggedIn={isUserLoggedIn} />;
 }
 
 export default Pharent;
