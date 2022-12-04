@@ -28,7 +28,6 @@ function Pharent() {
           lastname={user.lastname}
           age={user.age}
           id={user.id}
-        //   logIn={isUserLoggedIn}
         />
       ))}
     </ul>
